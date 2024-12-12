@@ -75,8 +75,8 @@ namespace Domashka
             int int1 = 123;
             string str1 = "Hello";
 
-            Console.WriteLine($"obj1 реализует IFormattable: {IsIFormattable(int1)}");
-            Console.WriteLine($"obj3 реализует IFormattable: {IsIFormattable(str1)}");
+            Console.WriteLine($"int1 реализует IFormattable: {IsIFormattable(int1)}");
+            Console.WriteLine($"str1 реализует IFormattable: {IsIFormattable(str1)}");
         }
         static void Zadanie5()
         {
